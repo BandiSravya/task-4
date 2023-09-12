@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding:0;
+    display: flex;
+    min-height: 100hv;
+    align-items: center;
+    justify-content: center;
+    background-color: linear-gradient(#fb009f,#fe0202);
+}
+.container{
+    text-align: center;
+}
+.loginbox{
+    background-color:#fff;
+    padding: 59px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    max-width: 220px;
+}
+.loginbox img{
+    width: 200px;
+    margin: 10px  ;
+}
+.loginbox form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.loginbox form button{
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.loginbox p{
+    margin: 10px 0;
+    color: #003569;
+    font-weight: bold;
+}
+.signup-box p{
+    margin: 10px 0;
+}
+.signup-box a{
+    color: #003569;
+    text-decoration: none;
+}
